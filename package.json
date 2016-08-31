@@ -1,0 +1,43 @@
+{
+  "name": "makedev",
+  "version": "0.0.1",
+  "description": "Website for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/hexo server -p 3000",
+    "generate": "./node_modules/.bin/hexo generate",
+    "deploy": "./node_modules/.bin/hexo deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evheniy/makedev.git"
+  },
+  "keywords": [
+    "makedev",
+    "symfony",
+    "php",
+    "javascript",
+    "react"
+  ],
+  "author": "evheniy.bystrov@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evheniy/makedev/issues"
+  },
+  "homepage": "https://makedev.org/",
+  "hexo": {
+    "version": "3.2.2"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-deployer-git": "^0.2.0",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
+  }
+}
